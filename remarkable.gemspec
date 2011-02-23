@@ -1,7 +1,5 @@
 version = File.read(File.expand_path("../REMARKABLE_VERSION",__FILE__)).strip
 
-version
-
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'remarkable'
