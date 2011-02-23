@@ -43,7 +43,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Remarkable: a framework for rspec matchers and macros, with support for I18n.}
 
-  s.add_dependency('i18n',          '0.4.1')
+  s.add_dependency('i18n',          '~> 0.4')
   s.add_dependency('activesupport', rails_version)
   s.add_dependency('rspec',         rspec_version)
 end
